@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This is the main page for the AITU project front end -->
+     <link rel="stylesheet" href="styles/style.css">
     <title>My First Web Page</title>
 </head>
 <body>
+    <div class="info-container">
     <!-- step 2 -->
     <h1>Aldik</h1>
     <h2>Course: second degree student at AITU</h2>
+    <div class="about-me-profile-pic">
     <h3>About Me</h3>
-    <!-- step 4: <img> tag -->
-    <img src="pictures/20250803_1813_Современный IT Энтузиаст_simple_compose_01k1r0zgrye1yact2qrrjfkj6h.png" alt="AiGenPhoto" width="80px" height="80px">
-    <p>
+    <p class="about-me">
         I'm Aldiyar from Kazakhstan. Future software engineer. Passionate about backend, Java. Learning every day.
     </p>
+    <img class="profile-pic" src="pictures/20250803_1813_Современный IT Энтузиаст_simple_compose_01k1r0zgrye1yact2qrrjfkj6h.png" alt="AiGenPhoto" width="80px" height="80px">
+    </div> 
     <!-- step 3 -->
+     <div class="hobbies-web-section">
      <h3>My Hobbies</h3>
      <ol>
          <li>Learning</li>
@@ -31,13 +35,13 @@
         <li><a href="https://www.kinopoisk.ru/">Kinopoisk</a></li>
         <li><a href="https://www.youtube.com/">Youtube</a></li>
     </ul>
-    <!-- step 5: <button> tag -->
-    <button>Click me!</button>
-
+    </div>
+    </div>
+    <br>
 
     <!-- step 6: <table> tag -->
     <table>
-        <tr>
+        <tr style="background-color: lightgray;">
             <th>Subject</th>
             <th>Day</th>
             <th>Time</th>
